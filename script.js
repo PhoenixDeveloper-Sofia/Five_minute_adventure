@@ -11,5 +11,19 @@ document.addEventListener('DOMContentLoaded', function () {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
+        breakpoints: {
+            1180: {
+                slidesPerView: 4
+            },
+            900: {
+                slidesPerView: 3
+            },
+            641: {
+                slidesPerView: 2
+            },
+            10: {
+                slidesPerView: 1
+            },
+        }
     });
 });
